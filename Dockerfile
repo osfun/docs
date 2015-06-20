@@ -1,6 +1,6 @@
 FROM osfun/docs:latest
 MAINTAINER  Dean
 
-
-ENTRYPOINT ["sudo ", "sh ", "/home/work/docs.sh" ]
+USER root
+ENTRYPOINT ["sh ", "/home/work/docs.sh" ]
 EXPOSE 80
