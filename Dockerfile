@@ -2,5 +2,5 @@ FROM osfun/docs:latest
 MAINTAINER  Dean
 
 USER root
-ENTRYPOINT ["/home/work/docs.sh" ]
+ENTRYPOINT service nginx start
 EXPOSE 80
